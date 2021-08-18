@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.DDD.CRUD.WEB</name>
+    </assembly>
+    <members>
+        <member name="M:API.DDD.CRUD.WEB.Controllers.ClienteController.CadastraCliente(API.DDD.CRUD.WEB.Dto.ClienteDto)">
+            <summary>
+            Insere um novo Cliente
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.DDD.CRUD.WEB.Controllers.ClienteController.BuscarCliente">
+            <summary>
+            Retorna todos os Clientes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.DDD.CRUD.WEB.Controllers.ClienteController.BuscarClientePorId(System.Int32)">
+            <summary>
+            Retorna o Cliente pelo Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.DDD.CRUD.WEB.Controllers.ClienteController.BuscarClientePorCpf(System.Decimal)">
+            <summary>
+            Retorna o Cliente pelo CPF
+            </summary>
+            <param name="cpf"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.DDD.CRUD.WEB.Controllers.ClienteController.BuscarClientePorNome(System.String)">
+            <summary>
+            Retorna o Cliente pelo nome
+            </summary>
+            <param name="nome"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
